@@ -9,7 +9,7 @@ namespace MistrzowieWynajmu.Models.Database
 {
     public class DataBaseContext : IdentityDbContext
     {
-        DataBaseContext(DbContextOptions<DataBaseContext> options) : base(options)
+        public DataBaseContext(DbContextOptions<DataBaseContext> options) : base(options)
         {
 
         }
