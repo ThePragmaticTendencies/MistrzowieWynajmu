@@ -194,7 +194,7 @@ namespace MistrzowieWynajmu.Migrations
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Iron = table.Column<bool>(type: "bit", nullable: false),
                     OwnerId = table.Column<int>(type: "int", nullable: false),
-                    Refigerator = table.Column<bool>(type: "bit", nullable: false),
+                    Refrigerator = table.Column<bool>(type: "bit", nullable: false),
                     Rooms = table.Column<int>(type: "int", nullable: false),
                     Type = table.Column<int>(type: "int", nullable: false),
                     Washer = table.Column<bool>(type: "bit", nullable: false)
